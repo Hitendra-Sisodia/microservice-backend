@@ -40,7 +40,6 @@ module.exports = (app, channel) => {
         res.json(data);
 
     });
-     
 
     app.get('/profile', UserAuth ,async (req,res,next) => {
 
@@ -48,13 +47,12 @@ module.exports = (app, channel) => {
         const { data } = await service.GetProfile({ _id });
         res.json(data);
     });
-     
 
     app.get('/shoping-details', UserAuth, async (req,res,next) => {
         const { _id } = req.user;
-       const { data } = await service.GetShopingDetails(_id);
+    const { data } = await service.GetShopingDetails(_id);
 
-       return res.json(data);
+    return res.json(data);
     });
     
     app.get('/wishlist', UserAuth, async (req,res,next) => {
