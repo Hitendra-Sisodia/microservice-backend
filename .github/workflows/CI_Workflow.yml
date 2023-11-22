@@ -31,7 +31,7 @@ jobs:
           npm ci
           npm test
 
-      - name: Test Shopping Service
+      - name: Test Shopping Services
         working-directory: ./shopping
         run: |
           npm ci
