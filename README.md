@@ -1,28 +1,12 @@
-# NodeJS Microservice
-NodeJS Microservice Architecture Example with realtime project
+Grocery Online Shopping Web App
 
+Welcome to the GitHub repository for the Grocery Online Shopping Web App! This project represents a transition from a Monolithic to a Microservices architecture, aimed at improving scalability, performance, and overall system efficiency. This is a practical source code of the NodeJS Microservice. In this we have split up a monolithic application into Microservices Architecture. The main goal of this repository is to provide an overview how the microservices architecture is working.
 
-## Monolithic version link:
+The prominent features of our project are:
+1. Microservices Architecture: Spearheaded the migration from a Monolithic architecture to a Microservices-based structure. This approach allows for better modularity, independence, and scalability of various functionalities within the Grocery Online Shopping Web App.
 
-[Grocery Online Shopping App Monolithic](https://github.com/codergogoi/Grocery_Online_Shopping_App)
+2. Containerization with Docker: Implemented Docker to containerize individual microservices. This ensures consistency and efficiency in deployment across different environments, making the application more portable and easier to manage.
 
-============================
-</br>
-What you can learn from this repository?
-</br>
-https://youtu.be/EXDkgjU8DDU
-</br>
-</br>
-</br>
+3. Microservices Design and Implementation: Designed and implemented specific microservices catering to different functionalities within the application. This enables a more modular and maintainable codebase, facilitating easier development, testing, and deployment.
 
-This is a practical source code of the NodeJS Microservice tutorial serise. Where we have split up a monolithic application into Microservices Architecture. The main goal of this repository is to provide an overview how the microservices architecture is working with nodejs and what is the complexity we need to resolve to achieve the outcome from an Monolithic architecture. 
-
-
-============================
-</br>
-This repository is published for educational purpose only. If the concept of the business logic matching with any project belongs to any organization it may be a co-incident. The main purpose of this repository is only to educate people by contributing practical knowledge.
-</br>
-
-POSTMAN Collection
-</br>
-https://github.com/codergogoi/Grocery_Online_Shopping_App/blob/master/online_shopping_monolithic/Microservices%20Tutorial.postman_collection.json
+4. Orchestration with Kubernetes: Leveraged Kubernetes for orchestration, simplifying the deployment, scaling, and management of microservices. Kubernetes provides a robust and flexible framework for automating containerized application workflows, ensuring seamless operation and scaling as per demand.
